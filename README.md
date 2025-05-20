@@ -102,6 +102,14 @@ Before running the project, make sure to configure the following:
   - **Snowflake Task**: Set up to run every **5 minutes** to load newly arrived S3 data.
   - **Glue Streaming Job**: Automatically picks up new Kafka data as it arrives.
  
+
+ - ## ⚠️ Security Notice
+
+> ⚠️ **Warning**  
+> Do **not** expose or commit your **AWS credentials**, **Snowflake credentials**, or **API keys** to any public repositories.  
+> Always use **environment variables**, **AWS Secrets Manager**, or other secure methods to store sensitive information.
+
+ 
     
  
 - ## Architecture Diagram

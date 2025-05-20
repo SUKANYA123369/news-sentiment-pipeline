@@ -102,6 +102,17 @@ Before running the project, make sure to configure the following:
   - **Snowflake Task**: Set up to run every **5 minutes** to load newly arrived S3 data.
   - **Glue Streaming Job**: Automatically picks up new Kafka data as it arrives.
  
+    
+ 
+- ## Architecture Diagram
+
+![Architecture](architecture.jpeg)
+
+
+## 🧾 Conclusion
+
+This project showcases an automated and scalable data pipeline for news sentiment analysis using AWS services and Snowflake. It efficiently collects news data from the News API, streams it through Kafka hosted on EC2, processes it with AWS Glue, and stores the results in S3 and Snowflake. The sentiment scores provide valuable insights visualized in Power BI. Automation with Lambda triggers and scheduled Snowflake tasks ensures continuous and timely data updates. This setup highlights how to build an integrated, real-time analytics workflow in the cloud.
+ 
 
 
 

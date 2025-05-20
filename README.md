@@ -58,7 +58,7 @@ Example thresholds used:
 - [`glue.py`](glue.py) — AWS Glue script that reads news data from Kafka, performs sentiment analysis, and writes results to S3.
 - [`code.sql`](code.sql) — SQL script used to create tables and load data into Snowflake from S3.
 
-- 
+
 
 ## ⚙️ Configuration Setup
 

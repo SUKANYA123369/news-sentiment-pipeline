@@ -98,7 +98,7 @@ Before running the project, make sure to configure the following:
     - Kafka is configured to advertise the **public IP address**.
    
 - **Automation Triggers:**
-  - **Lambda Trigger**: Create a CloudWatch EventBridge rule to trigger the Lambda function every **15 minutes**.
+  - **Lambda Trigger**: Create a CloudWatch EventBridge rule to trigger the Lambda function every **5 minutes**.
   - **Snowflake Task**: Set up to run every **5 minutes** to load newly arrived S3 data.
   - **Glue Streaming Job**: Automatically picks up new Kafka data as it arrives.
  

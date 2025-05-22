@@ -121,7 +121,7 @@ Before running the project, make sure to configure the following:
 
 This project includes a Power BI report that visualizes the key insights from the dataset. You can explore the Power BI file to gain a better understanding of the trends and patterns.
 
-🔗 [Download Power BI Report (.pbix)](./MYPOWERBI_PROJET.pbix)
+🔗 [Download Power BI Report (.pbix)](https://github.com/SUKANYA123369/news-sentiment-pipeline/blob/main/MYPOWERBI_PROJECT.pbix)
 
 ## 🧾 Conclusion
 
